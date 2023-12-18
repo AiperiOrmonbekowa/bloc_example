@@ -3,6 +3,10 @@ import 'package:counter_with_bloc/view/second_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// context.read<CounterCubit>().increment => функцияларды бир эле жолу чакырабыз
+// context.watch<CounterCubit>().state => угуп туруу учун колдонобуз (widgetter де колдонобуз)
+// context.select<CounterCubit>()=> cubit.state) => application дун тилин озгорткондо колдонобуз
+
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 
